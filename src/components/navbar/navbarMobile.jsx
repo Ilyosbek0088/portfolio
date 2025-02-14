@@ -6,7 +6,7 @@ const NavbarMobile = () => {
 
   return (
     <nav className="lg:hidden w-full flex justify-between items-center px-5 py-4">
-      <h1 className="text-xl font-bold">Ekaterina.</h1>
+      <h1 className="text-xl font-bold">ILyosbek.</h1>
       <button onClick={() => setIsOpen(!isOpen)} className="text-2xl">
         {isOpen ? <FiX /> : <FiMenu />}
       </button>
