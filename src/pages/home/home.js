@@ -34,8 +34,8 @@ export default function MainPage() {
           <div className="w-20 h-20 bg-white rounded-full shadow-lg flex items-center justify-center">
             <RiJavascriptFill className="text-yellow-500 text-4xl" />
           </div>
-          <div className="w-36 h-36 bg-white rounded-full shadow-lg flex items-center justify-center">
-            <FaReact className="text-blue-500 text-8xl" />
+          <div className="w-32 h-32 bg-white rounded-full shadow-lg flex items-center justify-center">
+            <FaReact className="text-blue-500 text-7xl" />
           </div>
           <div className="w-20 h-20 bg-white rounded-full shadow-lg flex items-center justify-center">
             <FaCss3Alt className="text-blue-600 text-4xl" />
@@ -44,7 +44,7 @@ export default function MainPage() {
       </div>
 
       {/* Соцсети */}
-      <div className="fixed bottom-10 left-10 flex flex-col space-y-4">
+      <div className="absolute bottom-10 left-10 flex flex-col space-y-4">
         <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-gray-200">
           <FaTelegramPlane className="text-blue-400 text-2xl" />
         </a>

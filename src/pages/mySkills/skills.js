@@ -25,7 +25,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="w-full flex flex-col items-center justify-center py-10 px-6 text-center">
+    <section className="w-full flex ml-6 flex-col items-center justify-center py-10 px-6 text-center">
       <h2 className="text-3xl font-bold">
         My <span className="text-blue-600">Skills</span>
       </h2>
