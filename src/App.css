@@ -50,7 +50,35 @@
   background-image: url(./assets/BMG.jpg);
   background-size: cover;
   background-repeat:no-repeat;
+  background-position: center;.image, .img1, .img2, .img3, .img4, .img5 {
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+}
+
+.image {
+  background-image: url(./assets/giphy.gif);
+}
+
+.img1 {
+  background-image: url(./assets/BMG.jpg);
+}
+
+.img2 {
+  background-image: url(./assets/LA-PULGA.jpg);
+}
+
+.img3 {
+  background-image: url(./assets/LEWANDOWSKI.jpg);
+}
+
+.img4 {
+  background-image: url(./assets/ANDREY.jpg);
+}
+
+.img5 {
+  background-image: url(./assets/CR7.jpg);
+}
 }
 
 .img2

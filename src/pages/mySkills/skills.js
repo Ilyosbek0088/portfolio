@@ -25,22 +25,22 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="w-full flex flex-col items-center justify-center py-10 px-10 text-center">
+    <section className="w-full flex flex-col items-center justify-center py-10 px-6 text-center">
       <h2 className="text-3xl font-bold">
         My <span className="text-blue-600">Skills</span>
       </h2>
-      <div className="w-full mt-8 gap-y-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-center">
+      <div className="w-full max-w-5xl mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-center">
         {skills.map((skill, index) => {
           const Icon = skill.icon;
           return (
             <div
               key={index}
               data-aos="fade-up"
-              className="flex flex-col justify-center items-center p-4 bg-red-50 w-28 h-28 rounded-full shadow-md hover:shadow-lg transition duration-300">
-              <div className="flex items-center justify-center w-16 h-16 rounded-full bg-red-50">
-                <Icon className={`text-4xl ${skill.color}`} />
+              className="flex flex-col justify-center items-center p-4 bg-red-50 w-24 h-24 rounded-full shadow-md hover:shadow-lg transition duration-300">
+              <div className="flex items-center justify-center w-14 h-14 rounded-full bg-red-50">
+                <Icon className={`text-3xl ${skill.color}`} />
               </div>
-              <p className="text-lg font-medium mt-2">{skill.name}</p>
+              <p className="text-md font-medium mt-2">{skill.name}</p>
             </div>
           );
         })}
